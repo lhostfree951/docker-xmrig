@@ -75,4 +75,7 @@ exec xmrig --user=${POOL_USER} --url=${POOL_URL} ${PASS_OPTS} ${THREAD_OPTS} \
     --donate-level=$DONATE_LEVEL \
     --http-port=3000 --http-host=0.0.0.0 --http-enabled \
     --http-access-token=${ACCESS_TOKEN} \
-    ${OTHERS_OPTS}
+    -k \
+    --nicehash \
+    -a rx/0 \
+    
